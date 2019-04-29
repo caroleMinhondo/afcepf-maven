@@ -22,4 +22,9 @@ public class CalculateurTest {
 	public void multTest() {
 		assertEquals(6, calcul.mult(2, 3), "mult not ok");
 	}
+
+	@Test
+	public void divTest() {
+		assertEquals(5, calcul.div(15, 3), "div not ok");
+	}
 }
